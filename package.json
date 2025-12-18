@@ -12,6 +12,7 @@
 		"build-storybook": "storybook build",
 		"patch": "npm version patch",
 		"minor": "npm version minor",
+
 		"major": "npm version major"
 	},
 	"dependencies": {
@@ -23,6 +24,7 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.39.1",
+		"@storybook/addon-a11y": "^10.1.10",
 		"@storybook/react-vite": "^10.1.10",
 		"@types/node": "^24.10.1",
 		"@types/react": "^19.2.7",
